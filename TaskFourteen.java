@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+public class TaskFourteen{
+public static void main(String[] agrs){
+
+
+         Scanner userInput = new Scanner(System.in);
+     System.out.print("Enter radius of the cylinder: ");
+             int radiusInput = userInput.nextInt();
+
+     System.out.print("Enter the height : ");
+             int heightInput = userInput.nextInt();
+              int radiusSquare = radiusInput * radiusInput;
+              int radiusHight = radiusInput + heightInput;
+
+             double surfaceArea = 2  * 3.142 * radiusInput * radiusHight;
+             double volume = 3.142 * radiusSquare * heightInput;
+             
+             
+             System.out.println("surface Area " + surfaceArea + "  Volume:" + volume);                    
+                 
+      
+    }
+
+}
