@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter month: ");
              int monthInput = userInput.nextInt();
 
@@ -123,4 +124,19 @@ public static void main(String[] agrs){
 
     }
 
+=======
+        System.out.print("Enter the length side number: ");
+             int lengthInput = userInput.nextInt();
+            int sumLength = lengthInput * lengthInput;     
+
+            double areaResult = 0.4330127019 * sumLength;
+
+
+    System.out.print("The kilometer is:" + areaResult + "\n");
+
+
+    }
+
+
+>>>>>>> 23f4b40 (Initial commit)
 }

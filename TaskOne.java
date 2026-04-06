@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter an integer from 1 to 7: ");
              int integer = userInput.nextInt();
 
@@ -35,4 +36,20 @@ public static void main(String[] agrs){
 
     }
 
+=======
+            System.out.print("Enter a miles number: ");
+               int milesInput = userInput.nextInt();
+                       
+
+            double kilometerResult = milesInput * 0.621371;
+
+
+    System.out.print("The kilometer is:" + kilometerResult + "\n");
+
+
+}
+
+
+
+>>>>>>> 23f4b40 (Initial commit)
 }

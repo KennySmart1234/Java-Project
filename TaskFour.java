@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter an integer: ");
              int integerInput1 = userInput.nextInt();
 
@@ -25,4 +26,18 @@ public static void main(String[] agrs){
            
     }
 
+=======
+        System.out.print("Enter the meter number: ");
+             int meterInput = userInput.nextInt();
+            double feetResult = meterInput * 3.2786;
+            
+
+
+    System.out.print("The feet = "+ feetResult + "\n");
+
+
+    }
+
+
+>>>>>>> 23f4b40 (Initial commit)
 }

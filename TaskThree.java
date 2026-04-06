@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter an integer: ");
              int integerInput = userInput.nextInt();
 
@@ -23,4 +24,21 @@ public static void main(String[] agrs){
            
     }
 
+=======
+        System.out.print("Enter the length side number: ");
+             int lengthInput = userInput.nextInt();
+            int  lengthSquare = lengthInput * lengthInput;
+         double sumArea = 0.4330127019 * lengthSquare;   
+  
+
+            double volumeResult = sumArea * lengthInput;
+
+
+    System.out.print("The volume is: " + volumeResult + "\n");
+
+
+    }
+
+
+>>>>>>> 23f4b40 (Initial commit)
 }

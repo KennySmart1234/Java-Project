@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter weight: ");
              int weight = userInput.nextInt();
              
@@ -27,3 +28,22 @@ public static void main(String[] agrs){
                 }
         }
     }
+=======
+     System.out.print("Enter amount of water in kilogram: ");
+             int inputKilogram = userInput.nextInt();
+
+     System.out.print("Enter initial Temperatures: ");
+             int initialTemperatures = userInput.nextInt();
+
+     System.out.print("Enter final Temperatures: ");
+             int finalTemperatures = userInput.nextInt();
+
+             int initialFinal = finalTemperatures - initialTemperatures;
+             int energyNeeded = inputKilogram * initialFinal * 4186;
+
+           System.out.print("energyNeeded: " + energyNeeded + "\n");
+
+        
+    }
+}
+>>>>>>> 23f4b40 (Initial commit)

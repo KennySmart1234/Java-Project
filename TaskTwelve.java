@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter an integer: ");
              int integerInput1 = userInput.nextInt();
 
@@ -26,4 +27,21 @@ public static void main(String[] agrs){
                     System.out.print("divisible by 4 and 5");}
     }
 
+=======
+     System.out.print("Enter the velocity: ");
+             int inputVelocity = userInput.nextInt();
+
+     System.out.print("Enter the acceleration: ");
+             int initialAcceleration = userInput.nextInt();
+
+             int squareVelocity = inputVelocity * inputVelocity;
+             int sumAcceleration = 2 * initialAcceleration;
+             int length = squareVelocity / sumAcceleration;   
+
+
+           System.out.print("Minimum run length: " + length + "\n");
+
+        
+    }
+>>>>>>> 23f4b40 (Initial commit)
 }

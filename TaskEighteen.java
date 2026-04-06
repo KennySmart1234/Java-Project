@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter two digit integer: ");
              int integerInput = userInput.nextInt();
 
@@ -26,4 +27,18 @@ public static void main(String[] agrs){
 
     }
 
+=======
+     System.out.print("Enter balance: ");
+             int balanceInput = userInput.nextInt();
+
+     System.out.print("Enter annual interest rate: ");
+             int interestInput = userInput.nextInt();
+           
+
+
+           System.out.print("BMI = "+ weightHeight + "\n");
+
+        
+    }
+>>>>>>> 23f4b40 (Initial commit)
 }

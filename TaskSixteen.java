@@ -6,6 +6,7 @@ public static void main(String[] agrs){
 
 
          Scanner userInput = new Scanner(System.in);
+<<<<<<< HEAD
      System.out.print("Enter temperature Celsius: ");
              int temprature = userInput.nextInt();
 
@@ -29,4 +30,17 @@ public static void main(String[] agrs){
 
     }
 
+=======
+     System.out.print("Enter side of the hexagon: ");
+             int hexagonInput = userInput.nextInt();
+                int HexagonSquare = hexagonInput * hexagonInput;
+                
+                 double area = 2.598076211 * HexagonSquare;
+           
+
+           System.out.print("Area = "+ area + "\n");
+
+        
+    }
+>>>>>>> 23f4b40 (Initial commit)
 }
